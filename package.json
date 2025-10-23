@@ -1,22 +1,18 @@
 {
-  "name": "ecom-frontend",
-  "version": "0.1.0",
-  "private": true,
+  "name": "ecom-backend",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "start": "node server.js"
   },
   "dependencies": {
-    "@types/node": "20.11.0",
-    "@types/react": "18.2.47",
-    "@types/react-dom": "18.2.18",
-    "autoprefixer": "^10.4.16",
-    "next": "14.0.4",
-    "postcss": "^8.4.33",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "^3.4.1",
-    "typescript": "5.3.3"
+    "@prisma/client": "^5.0.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.0.0"
   }
 }
